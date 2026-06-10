@@ -1,19 +1,14 @@
-import heroImg from './assets/ID_NeckTie_Smile.png'
+// import heroImg from './assets/ID_NeckTie_Smile.png'
 import './App.css'
+import { Navbar } from './components/Navbar'
 
 function App() {
 
   return (
     <>
       <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-        </div>
-        <div>
-
-        </div>
+        <Navbar />
       </section>
-
     </>
   )
 }
