@@ -1,15 +1,18 @@
-// import heroImg from './assets/ID_NeckTie_Smile.png'
+// src/App.tsx
 import './App.css'
 import { Navbar } from './components/Navbar'
+// import { Hero } from './components/Hero' // Import your other components as you build them
+// import { ProjectsGrid } from './components/ProjectsGrid'
 
 function App() {
-
   return (
-    <>
-      <section id="center">
-        <Navbar />
-      </section>
-    </>
+    <div className="min-h-screen bg-black text-white flex flex-col">
+      <Navbar />
+
+      <main className="flex-1 w-full">
+
+      </main>
+    </div>
   )
 }
 
