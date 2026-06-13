@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { ProjectsGrid } from "./components/ProjectsGrid";
 import { TechnicalSkills } from "./components/TechnicalSkills";
+import { Contact } from "./components/Contact";
 
 function App() {
   return (
@@ -14,10 +15,9 @@ function App() {
       {/* Main Body Flow */}
       <main className="flex-1 w-full">
         <Hero />
-
         <ProjectsGrid />
-
         <TechnicalSkills />
+        <Contact />
       </main>
     </div>
   )
