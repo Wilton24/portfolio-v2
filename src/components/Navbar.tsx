@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
                         <li>
                             <button
                                 onClick={() => handleScroll('projects')}
-                                className="hover:text-white transition-colors duration-200"
+                                className="hover:text-white transition-colors duration-200 cursor-pointer"
                             >
                                 PROJECTS
                             </button>
@@ -36,7 +36,7 @@ export const Navbar: React.FC = () => {
                         <li>
                             <button
                                 onClick={() => handleScroll('skills')}
-                                className="hover:text-white transition-colors duration-200"
+                                className="hover:text-white transition-colors duration-200 cursor-pointer"
                             >
                                 SKILLS
                             </button>
@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
                         <li>
                             <button
                                 onClick={() => handleScroll('contact')}
-                                className="hover:text-white transition-colors duration-200"
+                                className="hover:text-white transition-colors duration-200 cursor-pointer"
                             >
                                 CONTACT
                             </button>

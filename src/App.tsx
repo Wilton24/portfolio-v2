@@ -2,6 +2,7 @@
 import './App.css'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
+import { ProjectsGrid } from "./components/ProjectsGrid";
 
 function App() {
   return (
@@ -13,10 +14,7 @@ function App() {
       <main className="flex-1 w-full">
         <Hero />
 
-        {/* The Projects Section will go right below here next! */}
-        {/* <section id="projects" className="border-t border-zinc-900 bg-black">
-          <ProjectsGrid />
-        </section> */}
+        <ProjectsGrid />
       </main>
     </div>
   )
