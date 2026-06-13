@@ -3,6 +3,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { ProjectsGrid } from "./components/ProjectsGrid";
+import { TechnicalSkills } from "./components/TechnicalSkills";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Hero />
 
         <ProjectsGrid />
+
+        <TechnicalSkills />
       </main>
     </div>
   )
