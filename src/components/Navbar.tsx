@@ -1,5 +1,6 @@
 // src/components/Navbar.tsx
 import React from 'react';
+import logo from "../assets/wiltonLogo.jpg"
 
 export const Navbar: React.FC = () => {
     // Smooth scroll handler for single-page navigation
@@ -19,7 +20,9 @@ export const Navbar: React.FC = () => {
                     className="text-xl font-black tracking-tighter text-white cursor-pointer select-none"
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 >
-                    W.
+                    {/* `12 */}
+                    {/* W. */}
+                    <img src={logo} alt="WGB Logo" className="hover:scale-150 transition-transform duration-200 w-16 h-16 rounded-full object-cover" />
                 </div>
 
                 {/* Right Side: Navigation Links & Resume Button */}
